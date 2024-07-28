@@ -12,7 +12,7 @@
   box-sizing: border-box;
 }
 body {
-  background: #000;
+  background: #dc33ac;
   color: #fff;
   font-family: moon;
 }
@@ -124,11 +124,32 @@ header {
 
 
 /* start main */
-.slider{
+.main{
   position: relative;
   top: 46rem;
   width: 100%;
   height: 30rem;
+
+}
+.slider{
+  display: grid;
+  grid-template-columns: auto;
+  background-color: #f55332;
+  height: 30rem;
+  margin-bottom: 0;
+}
+.intro_artists{
+  width: 100%;
+  height: 44rem;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  background-color: aquamarine;
+}
+.img_artists{
+background-color: #ecfc3c;
+height: 40rem;
+}
+.info_artists{
 
 }
 
@@ -138,5 +159,11 @@ header {
 
 /* start footer */
 
-
+.footer{
+ background-color: #cb6279;
+position: relative;
+top:86rem;
+width: 100%;
+height:20rem ;
+}
 /* end footer */
