@@ -1,5 +1,123 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@font-face {
+  font-family: wednesday;
+  src: url(./font/wednesday/lost.leonenst-bold.otf);
 }
+@font-face {
+  font-family: moon;
+  src: url(font/moon/Moon\ Bold.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #000;
+  color: #fff;
+  font-family: moon;
+}
+/* start header */
+header {
+  background: url(img/bg-header.png) no-repeat 100%;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 46rem;
+  /* border-image: fill 0 linear-gradient(#5a1da9, #230063 80% ); */
+  opacity: 0.5;
+  position: absolute;
+}
+/* start menu */
+.menu {
+  list-style: none;
+  text-align: center;
+}
+
+.menu li {
+  display: inline-block;
+  position: relative;
+}
+
+.menu-info {
+  position: relative;
+  display: block;
+  padding: 20px 25px;
+  font-size: 18px;
+  font-weight: 900;
+  color: #591da9;
+  text-decoration: none;
+  text-align: center;
+}
+.menu-info:hover {
+  color: #230063;
+  border-bottom: 3px solid #591da9;
+}
+
+/* end menu */
+
+.text-header {
+  font-family: wednesday;
+  font-size: 1.6rem;
+  font-weight: 800;
+  width: 18rem;
+  height: 15rem;
+  margin-left: 40rem;
+  margin-top: 22rem;
+  text-shadow: 5px 5px 15px #591da9;
+}
+.text-header-info {
+  font-family: moon;
+  font-size: 0.6rem;
+  width: 15rem;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+}
+.header-info1,
+.header-info2,
+.header-info3 {
+  width: 4rem;
+  border-right: 3px solid #fff;
+}
+
+.text-info-header {
+  font-family: moon;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+.btn1 {
+  background: linear-gradient(#591da9, #230063 70%);
+  color: #fff;
+  font-size: 0.9rem;
+  width: 7rem;
+  height: 1.8rem;
+  border-radius: 0 0.5rem 0;
+  border: none;
+  transition: 0.8s;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.btn2 {
+  background: linear-gradient(#591da9, #230063 70%);
+  color: #fff;
+  font-size: 0.9rem;
+  width: 7rem;
+  height: 1.8rem;
+  border-radius: 0.5rem 0 0.5rem;
+  margin-left: 2.2rem;
+  border: none;
+  transition: 0.8s;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.btn1:hover,
+.btn2:hover {
+  background: #fff;
+  color: #591da9;
+  transform: scale(1.1);
+}
+/* end header */
