@@ -121,3 +121,22 @@ header {
   transform: scale(1.1);
 }
 /* end header */
+
+
+/* start main */
+.slider{
+  position: relative;
+  top: 46rem;
+  width: 100%;
+  height: 30rem;
+
+}
+
+/* end main */
+
+
+
+/* start footer */
+
+
+/* end footer */
