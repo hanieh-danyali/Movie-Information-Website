@@ -26,7 +26,7 @@ header {
   width: 100%;
   height: 46rem;
   /* border-image: fill 0 linear-gradient(#5a1da9, #230063 80% ); */
-  opacity: 0.5;
+  /* opacity: 0.5; */
   position: absolute;
 }
 /* start menu */
@@ -140,9 +140,9 @@ header {
   height: 30rem;
   margin-bottom: 0;
 }
-.intro_artists{
+.intro_artists1{
   width: 100%;
-  height: 44rem;
+  height: 50rem;
   display: grid;
   grid-template-columns: 1fr 3fr;
   background-color: rgb(8, 8, 8);
@@ -157,19 +157,16 @@ align-items: center;
 padding: 1rem;
 }
 .img_actor1{
-  width :8rem;
-  height: 8rem;
+  width :9rem;
+  height: 9rem;
   border-radius: 5rem;
-  border:4px solid rgb(216, 56, 147) ;
   margin: 1rem;
   cursor: pointer;
-
 }
 .img_actor2{
-  width : 8rem;
+  width : 9rem;
   height: 8rem;
   border-radius: 5rem;
-  border:4px solid rgb(216, 56, 147) ;
   margin: 1rem;
   cursor: pointer;
 
@@ -178,7 +175,6 @@ padding: 1rem;
   width : 8rem;
   height: 8rem;
   border-radius: 5rem;
-  border:4px solid rgb(216, 56, 147) ;
   margin: 1rem;
   cursor: pointer;
 
@@ -187,7 +183,6 @@ padding: 1rem;
   width : 8rem;
   height:8rem;
   border-radius: 5rem;
-  border:4px solid rgb(216, 56, 147) ;
   margin: 1rem;
   cursor: pointer;
 
@@ -216,61 +211,28 @@ padding: 1rem;
   padding-right: 4rem;
  
 }
-.hidden{
- position: relative;
-  top: 0rem;
-  left: 70rem;
-  transition:3s;
+.info_artists2{
+  
 }
-/* .hidden1{
-  position: relative;
-   top: -120rem;
-   left: 92rem;
-   transition:3s;
- } */
-.info__artists2{
-   width: 70%;
-  height: 30rem;
-background-color: #f5f532;
-border: 5px solid rgb(193, 63, 160);
-border-radius: 1rem;
-padding: 1rem;
-z-index: 100;
+.discription{
+  display: flex;
+  flex-direction: row;
 }
-.info__artists3{
-  width: 68%;
- height: 30rem;
-background-color: #f5f532;
-border: 5px solid rgb(193, 63, 160);
-border-radius: 1rem;
-padding: 1rem;
-z-index: 3;
+.dir{
+
 }
-.info__artists4{
-  width: 68%;
- height: 30rem;
-background-color: #f5f532;
-border: 5px solid rgb(193, 63, 160);
-border-radius: 1rem;
-padding: 1rem;
-z-index: 4;
+.name_actor{
+font-size:2rem;
+margin: 2rem;
 }
-.move1{
-  transform: rotate(-1turn);
-  transition: 3s;
+.about_actor{
+margin: 1rem;
 }
-.move2{
-  transform: rotate(1turn);
-  transition: 3s;
+
+.fa-brands{
+  color: white;
 }
-.move3{
-  transform: rotate(-1turn);
-  transition: 5s;
-}
-.move4{
-  transform: rotate(1turn);
-  transition: 5s;
-}
+
 /* end main */
 
 
