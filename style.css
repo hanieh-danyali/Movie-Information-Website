@@ -83,8 +83,9 @@ header {
   margin-top: -6rem;
 }
 .logo {
-  width: 8rem;
-  height: 8rem;
+  width: 5rem;
+  height:3rem;
+  margin: 2rem;
 }
 
 /* end menu */
@@ -181,20 +182,57 @@ header {
   margin-bottom: 0;
 }
 .intro_artists1 {
+  background: radial-gradient(#5218e7, #744a7e);
   width: 100%;
   height: 50rem;
   display: grid;
   grid-template-columns: 1fr 3fr;
   background-color: rgb(0, 0, 0);
   position: absolute;
+  padding: 2rem;
+}
+.casts_m{
+  width: 7rem;
+  height: 3rem;
+  padding-right: 0.8rem;
+  padding-left: 1.2rem;
+  padding-right: 0.8rem;
+  border-left:5px solid #0b0605;
+  margin-left: 1rem;
+  padding-bottom: 0.4rem;
+}
+.casts{
+  font-size: 2rem;
+  
 }
 .img_artists {
-  background: linear-gradient(#070608, #05000d 70%);
-  height: 40rem;
+  /* background: radial-gradient(#5218e7, #744a7e); */
+  height: 45rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 1rem;
+  align-items: start;
+  padding-top: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  border-left: 5px ;
+}
+.name_photo{
+  display: flex;
+  font-size: 1.6rem;
+  color: #070105;
+}
+.name_a{
+  margin-top: 1rem;
+  font-size:1.3rem;
+}
+.name__fact{
+  display: flex;
+  flex-direction: column;
+  padding-top: 1.5rem;
+}
+.name__fake{
+  font-size: 1rem;
 }
 .img_actor1 {
   width: 8rem;
@@ -228,7 +266,7 @@ header {
 .img_actor2:hover,
 .img_actor3:hover,
 .img_actor4:hover {
-  border: 4px solid rgb(235, 8, 136);
+  border: 4px solid rgb(85, 16, 95);
   transform: scale(1.1);
   transition: 0.8s;
 }
@@ -269,9 +307,9 @@ header {
 .fa-brands {
   color: white;
 }
-.image_actor {
-  border-radius: 50%;
-}
+/* .image_actor {
+  border-radius: 5rem;
+} */
 
 /* end main */
 
@@ -280,10 +318,10 @@ header {
 footer {
   width: 100%;
   position: relative;
-  top: 120rem;
+  top: 96rem;
   background: linear-gradient(to right, #591da9, #230063);
   color: #fff;
-  padding: 10rem 0 3rem;
+  padding: 2rem 0 1rem;
   border-top-left-radius: 12.5rem;
   font-size: 1rem;
   line-height: 2rem;

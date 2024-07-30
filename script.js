@@ -18,8 +18,8 @@ img_actor1.addEventListener('click',function(){
 
 img_actor2.addEventListener('click',function(){
     name_actor.textContent ='Hunter Doohan';
-    about_actor.textContent = 'Hunter Doohan Hunter Doohan Hunter Doohan Hunter Doohan Hunter Doohan';
-    image_actor.src = 'img/photo12815550593.jpg';
+    about_actor.textContent = `Hunter Doohan Hunter Doohan Hunter Doohan Hunter Doohan Hunter Doohan`;
+    image_actor.src = 'img/photo12830957814.png';
 });
 
 img_actor3.addEventListener('click',function(){
