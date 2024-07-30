@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>movie information website</title>
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/72dd932601.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- start header -->
@@ -15,8 +19,24 @@
         <li><a href="#" class="menu-info">info</a></li>
         <li><a href="#" class="menu-info">Artist</a></li>
         <li><a href="#" class="menu-info">About Tel</a></li>
+        <li>
+          <input
+            type="search"
+            id="search"
+            class="search"
+            placeholder="is in search..."
+          />
+          <label for="search" class="search-label">
+            <i class="fa-solid fa-magnifying-glass"></i
+          ></label>
+        </li>
       </ul>
-      <!-- <img src="img/c93b9b89-d8cd-493f-85e6-94db7a1ffb8b.jpg" alt="" class="bg_header"> -->
+
+      <div class="logo-header">
+        <a href="#" class="navbar-brand"
+          ><img src="img/logo.png" alt="" class="logo"
+        /></a>
+      </div>
       <!-- end menu -->
       <div class="text-header">
         <h1>wednesday</h1>
@@ -30,18 +50,52 @@
         </div>
         <div class="btn-header">
           <button class="btn1">Lorem ipsum</button>
-           <button class="btn2" >Lorem ipsum</button>
+          <button class="btn2">Lorem ipsum</button>
         </div>
       </div>
     </header>
     <!-- end header -->
 
+    <!-- start main -->
+    <main class="main">
+      <div class="slider">slider</div>
 
-     <!-- start main -->
-     <main class="main">
-<div class="slider">
-  slider
-</div>
+      <div class="intro_artists1">
+        <div class="img_artists">
+          <img src="img/photo12811031123.jpg" alt="" class="img_actor1" />
+          <img src="img/photo12810941941.jpg" alt="" class="img_actor2" />
+          <img src="img/photo12810731170.jpg" alt="" class="img_actor3" />
+          <img src="img/photo12810941916.jpg" alt="" class="img_actor4" />
+        </div>
+        <div class="info_artists1 info_artists2">
+          <div class="discription">
+            <div class="dir">
+              <strong><p class="name_actor">Jenna Ortega</p></strong>
+              <p class="about_actor">
+                American actress and voice actress Jenna Ortega was born on
+                September 27, 2002 in Coachella Valley, California. Besides
+                acting, she is also interested in writing, her book was
+                published in January 2022 with the name (It's All Love). Jenna
+                Ortega has a history of acting and voicing in films and series
+                such as Wednesday, Scream 5, Yes Day, Princess Elena, Jurassic
+                World: Camp Cretaceous, Saving Flora, You and Iron Man 3 in her
+                artistic career.
+              </p>
+              <span><i class="fa-brands fa-square-instagram"></i></span>
+            </div>
+            <img
+              src="img/photo12811031123.jpg"
+              alt="artist"
+              width="700"
+              height="500"
+            />
+            <!-- <div class="info__artists1 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint velit, rerum error placeat dolores dicta, harum, itaque pariatur eaque molestiae sed nemo dolore. Asperiores corporis aliquam possimus unde, atque dolorem!</div> -->
+          </div>
+        </div>
+      </div>
+    </main>
+
+
 
 <div class="intro_artists1 ">
   <div class="img_artists">
@@ -65,15 +119,14 @@
 </div>
      </main>
     
+
     <!-- end main -->
 
-
-
     <!-- start footer -->
-<footer>
-  <div class="footer">footer</div>
-</footer>
-     <!-- end footer -->
-      <script src="script.js"></script>
+    <footer>
+      <div class="footer">footer</div>
+    </footer>
+    <!-- end footer -->
+    <script src="script.js"></script>
   </body>
 </html>
