@@ -298,7 +298,7 @@ header {
 .discription {
   display: flex;
   flex-direction: row;
-  border: 3px solid black;
+  /* border: 3px solid black; */
   border-radius: 4rem;
 }
 .dir {
