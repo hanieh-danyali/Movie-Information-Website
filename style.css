@@ -238,29 +238,34 @@ header {
   width: 8rem;
   height: 8rem;
   border-radius: 5rem;
-  margin: 1rem;
+  margin: 0.8rem;
   cursor: pointer;
+  border: 3px solid black;
 }
 .img_actor2 {
   width: 8rem;
   height: 8rem;
   border-radius: 5rem;
-  margin: 1rem;
+  margin: 0.8rem;
   cursor: pointer;
+  border: 3px solid black;
+  /* box-shadow: 2px 3px rgb(63, 61, 61); */
 }
 .img_actor3 {
   width: 8rem;
   height: 8rem;
   border-radius: 6rem;
-  margin: 1rem;
+  margin: 0.8rem;
   cursor: pointer;
+  border: 3px solid black;
 }
 .img_actor4 {
   width: 8rem;
   height: 8rem;
   border-radius: 5rem;
-  margin: 1rem;
+  margin: 0.8rem;
   cursor: pointer;
+  border: 3px solid black;
 }
 .img_actor1:hover,
 .img_actor2:hover,
@@ -284,15 +289,17 @@ header {
   padding: 1rem;
 }
 .info_artists1 {
-  padding-top: 4rem;
+  padding-top:4rem;
   padding-left: 4rem;
   padding-right: 4rem;
+  padding-bottom: 6rem;
 }
-.info_artists2 {
-}
+
 .discription {
   display: flex;
   flex-direction: row;
+  border: 3px solid black;
+  border-radius: 4rem;
 }
 .dir {
 }
@@ -307,9 +314,21 @@ header {
 .fa-brands {
   color: white;
 }
-/* .image_actor {
-  border-radius: 5rem;
-} */
+.image__actor{
+  float: right;
+}
+.hidden{
+  width: 35rem;
+  height: 22rem;
+}
+.ab_actor{
+  width: 50rem;
+  height: 2rem;
+  text-align: center;
+  font-size: 2rem;
+
+}
+
 
 /* end main */
 
