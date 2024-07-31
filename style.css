@@ -202,7 +202,7 @@ header {
 }
 .casts{
   font-size: 2rem;
-  
+  text-shadow: 5px 5px 5px rgb(107, 180, 180);
 }
 .img_artists {
   /* background: radial-gradient(#5218e7, #744a7e); */
@@ -225,6 +225,8 @@ header {
   margin-top: 1rem;
   font-size:1.3rem;
   color: white;
+  text-shadow: 5px 5px 5px rgb(107, 180, 180);
+  margin-bottom: 4px;
 }
 .name__fact{
   display: flex;
@@ -307,7 +309,7 @@ header {
   margin: 2rem;
   text-align: center;
   font-weight: bold;
-  unicode-bidi: isolate;
+  text-shadow: 5px 5px 5px rgb(107, 180, 180);
 }
 
 .about_actor {
