@@ -12,14 +12,12 @@
   box-sizing: border-box;
 }
 body {
-  background: #070105;
-  color: #f8f0f0;
-  font-family: moon;
-  overflow-x: hidden;
+background: radial-gradient(#3b06c0, #744a7e); 
+color: white;
 }
 /* start header */
 header {
-  background: url(img/bg-header.jpg) no-repeat 100%;
+  background: url(img/bg-header.jpg) 100% no-repeat;
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -182,7 +180,8 @@ header {
   margin-bottom: 0;
 }
 .intro_artists1 {
-  background: radial-gradient(#5218e7, #744a7e);
+  background: url(img/purple-color-light-bokeh-abstract-background-eps-10-illustration-bokeh-particles-background-decoration-vector.jpg) 100% no-repeat;
+  backdrop-filter: blur(6px);
   width: 100%;
   height: 50rem;
   display: grid;
@@ -225,11 +224,13 @@ header {
 .name_a{
   margin-top: 1rem;
   font-size:1.3rem;
+  color: white;
 }
 .name__fact{
   display: flex;
   flex-direction: column;
   padding-top: 1.5rem;
+  color: white;
 }
 .name__fake{
   font-size: 1rem;
@@ -240,7 +241,7 @@ header {
   border-radius: 5rem;
   margin: 0.8rem;
   cursor: pointer;
-  border: 3px solid black;
+  border: 3px solid rgb(239, 229, 229);
 }
 .img_actor2 {
   width: 8rem;
@@ -248,7 +249,7 @@ header {
   border-radius: 5rem;
   margin: 0.8rem;
   cursor: pointer;
-  border: 3px solid black;
+  border: 3px solid rgb(239, 229, 229);
   /* box-shadow: 2px 3px rgb(63, 61, 61); */
 }
 .img_actor3 {
@@ -257,7 +258,7 @@ header {
   border-radius: 6rem;
   margin: 0.8rem;
   cursor: pointer;
-  border: 3px solid black;
+  border: 3px solid rgb(239, 229, 229);
 }
 .img_actor4 {
   width: 8rem;
@@ -265,13 +266,13 @@ header {
   border-radius: 5rem;
   margin: 0.8rem;
   cursor: pointer;
-  border: 3px solid black;
+  border: 3px solid rgb(239, 229, 229);
 }
 .img_actor1:hover,
 .img_actor2:hover,
 .img_actor3:hover,
 .img_actor4:hover {
-  border: 4px solid rgb(85, 16, 95);
+  border: 4px solid rgb(17, 13, 18);
   transform: scale(1.1);
   transition: 0.8s;
 }
@@ -301,14 +302,18 @@ header {
   /* border: 3px solid black; */
   border-radius: 4rem;
 }
-.dir {
-}
 .name_actor {
   font-size: 2rem;
   margin: 2rem;
+  text-align: center;
+  font-weight: bold;
+  unicode-bidi: isolate;
 }
+
 .about_actor {
   margin: 1rem;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.2rem;
 }
 
 .fa-brands {
