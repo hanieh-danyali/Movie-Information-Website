@@ -12,7 +12,7 @@
   box-sizing: border-box;
 }
 body {
-background: radial-gradient(#3b06c0, #744a7e); 
+border-color: black;
 color: white;
 }
 /* start header */
@@ -180,8 +180,8 @@ header {
   margin-bottom: 0;
 }
 .intro_artists1 {
-  background: url(img/purple-color-light-bokeh-abstract-background-eps-10-illustration-bokeh-particles-background-decoration-vector.jpg) 100% no-repeat;
   backdrop-filter: blur(6px);
+  background-color: #070105;
   width: 100%;
   height: 50rem;
   display: grid;
@@ -202,7 +202,7 @@ header {
 }
 .casts{
   font-size: 2rem;
-  text-shadow: 5px 5px 5px rgb(107, 180, 180);
+  text-shadow: 5px 5px 5px rgb(77, 190, 207);
 }
 .img_artists {
   /* background: radial-gradient(#5218e7, #744a7e); */
@@ -225,7 +225,7 @@ header {
   margin-top: 1rem;
   font-size:1.3rem;
   color: white;
-  text-shadow: 5px 5px 5px rgb(107, 180, 180);
+  text-shadow: 5px 5px 5px rgb(163, 63, 152);
   margin-bottom: 4px;
 }
 .name__fact{
@@ -239,7 +239,7 @@ header {
 }
 .img_actor1 {
   width: 8rem;
-  height: 8rem;
+  height: 7.5rem;
   border-radius: 5rem;
   margin: 0.8rem;
   cursor: pointer;
@@ -247,7 +247,7 @@ header {
 }
 .img_actor2 {
   width: 8rem;
-  height: 8rem;
+  height: 7.5rem;
   border-radius: 5rem;
   margin: 0.8rem;
   cursor: pointer;
@@ -256,7 +256,7 @@ header {
 }
 .img_actor3 {
   width: 8rem;
-  height: 8rem;
+  height: 7.5rem;
   border-radius: 6rem;
   margin: 0.8rem;
   cursor: pointer;
@@ -264,7 +264,7 @@ header {
 }
 .img_actor4 {
   width: 8rem;
-  height: 8rem;
+  height: 7.5rem;
   border-radius: 5rem;
   margin: 0.8rem;
   cursor: pointer;
@@ -274,7 +274,7 @@ header {
 .img_actor2:hover,
 .img_actor3:hover,
 .img_actor4:hover {
-  border: 4px solid rgb(17, 13, 18);
+  border: 4px solid rgb(122, 40, 142);
   transform: scale(1.1);
   transition: 0.8s;
 }
@@ -309,13 +309,14 @@ header {
   margin: 2rem;
   text-align: center;
   font-weight: bold;
-  text-shadow: 5px 5px 5px rgb(107, 180, 180);
+  text-shadow: 5px 5px 5px rgb(170, 107, 180);
 }
 
 .about_actor {
   margin: 1rem;
  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1.2rem;
+  text-shadow: 5px 5px 5px rgb(225, 87, 205);
 }
 
 .fa-brands {
@@ -325,8 +326,8 @@ header {
   float: right;
 }
 .hidden{
-  width: 35rem;
-  height: 22rem;
+  width: 28rem;
+  height: 18rem;
 }
 .ab_actor{
   width: 50rem;
@@ -334,6 +335,9 @@ header {
   text-align: center;
   font-size: 2rem;
 
+}
+.image___actor{
+  height: 18rem;
 }
 
 
@@ -345,7 +349,8 @@ footer {
   width: 100%;
   position: relative;
   top: 96rem;
-  background: linear-gradient(to right, #591da9, #230063);
+  /* background: linear-gradient(to right, #591da9, #230063); */
+  background: radial-gradient( #3a383d, #0a0a52);
   color: #fff;
   padding: 2rem 0 1rem;
   border-top-left-radius: 12.5rem;

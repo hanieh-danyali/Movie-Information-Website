@@ -18,15 +18,15 @@ Jenna Ortega has a history of acting and voicing in films and series such as Wed
 
 img_actor2.addEventListener('click',function(){
     name_actor.textContent ='Hunter Doohan';
-    about_actor.textContent = `Hunter Doohan, born on January 19, 1994 in America, is an actor and writer, he started his first work in 2012 at the age of 18 with the short film Lost Pursuit, and then in several other short films such as Grace, "It's supposed to be healthy" , Mosh Opera, has played a role. In 2015, at the age of 21, he appeared in front of the camera in the role of Owen in the series "Cafe Chronicles".
-Then he played in other series such as "Schooled" in the role of Matt Ryan and "What/If" in the role of Tyler. In 2022, at the age of 28, he starred in the series "Wednesday" in the role of Tyler. Galpin achieved world fame.`;
+    about_actor.textContent = `Hunter Doohan, born on January 19, 1994 in America, is an actor and writer, he started his first work in 2012 at the age of 18 with the short film Lost Pursuit, and then in several other short films such as Grace, has played a role. In 2015, at the age of 21, he appeared in front of the camera in the role of Owen in the series "Cafe Chronicles".
+Then he played in other series such as "Schooled" in t. In 2022, at the age of 28, he starred in the series "Wednesday" in the role of Tyler. Galpin achieved world fame.`;
     image_actor.src = 'img/photo_hunter.png';
     image_actor.classList.remove('hidden');
 });
 
 img_actor3.addEventListener('click',function(){
     name_actor.textContent ='Emma Myers';
-    about_actor.textContent = `Emma Myers (English: Emma Myers; born April 2, 2002) is an American actress. He started his career as a child actor in 2010 when he appeared in the movie Bisheh. He became famous by playing the role of Inde Sinclair in the series Wednesday (2022). She has a sister named Isabel Myers. Emma Myers was born on April 2, 2002 in Orlando, Florida. He was home schooled and never had a traditional school experience.Myers began acting as a child actor in 2010 and made his acting debut in the television series The Grove.[1] He began acting professionally at the age of 16. started. Myers appeared in the films Southern Gospel (2020), A Taste of Christmas (2020), and Girl in the Basement (2021). She rose to fame in the 2022 TV series Wednesday playing the role of End Sinclair alongside co-star Jenna Ortega, who played Wednesday Addams.`;
+    about_actor.textContent = `Emma Myers (English: Emma Myers; born April 2, 2002) is an American actress.when he appeared in the movie Bisheh. He became famous by playing the role of Inde Sinclair in the series Wednesday (2022). She has a sister named Isabel Myers. Emma Myers was born on April 2, 2002 in Orlando, Florida. He was home schooled and never had a traditional school experience. He began acting professionally at the age of 16. started. Myers appeared in the films Southern Gospel (2020). She rose to fame in the 2022 TV series Wednesday playing the role of End Sinclair alongside co-star Jenna Ortega, who played Wednesday Addams.`;
     image_actor.src = 'img/photo_emma.png';
     image_actor.classList.remove('hidden');
 });
