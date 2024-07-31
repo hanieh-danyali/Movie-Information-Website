@@ -1,0 +1,275 @@
+@font-face {
+  font-family: wednesday;
+  src: url(font/wednesday/lost.leonenst-bold.otf);
+}
+@font-face {
+  font-family: moon;
+  src: url(font/moon/PlayfairDisplay-SemiBold.ttf);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+  background: #2c023e;
+  overflow-x: hidden;
+  font-family: moon;
+}
+.container {
+  width: 100%;
+  height: 100%;
+}
+.svg-moj {
+  width: 55rem;
+  height: 4rem;
+  left: 5rem;
+}
+
+.form {
+  width: 55rem;
+  height: 40rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(0.5rem);
+  margin-top: 1.5rem;
+  margin-left: 20rem;
+  position: relative;
+  box-shadow: 2rem 2rem 15rem #060606;
+  border-radius: 8px;
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(12, 5, 110, 0.3) 11.2%,
+    rgba(180, 54, 226, 0.3) 91.1%
+  );
+}
+.img {
+  position: absolute;
+  width: 20rem;
+  height: 15rem;
+  margin-top: 8.7rem;
+  margin-left: 51rem;
+  z-index: 1;
+}
+.img-login{
+    width: 20rem;
+    height: 30rem;
+    margin-top: 1.3rem;
+
+}
+.titel-login {
+  position: absolute;
+  height: 8rem;
+  width: 30rem;
+  margin-top: 5rem;
+  font-family: wednesday;
+}
+.logo {
+  width: 6rem;
+  height: 4rem;
+  margin-left: 6rem;
+  position: relative;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+.text-login {
+  margin-left: 18rem;
+  margin-top: -5rem;
+  color: #fff;
+}
+
+.login-inpot {
+  position: relative;
+  margin-top: -3rem;
+}
+.name-me {
+  position: absolute;
+  top: 18rem;
+  left: 6rem;
+  width: 10rem;
+  height: 100%;
+  border: 3px solid #fff;
+  border-radius: 0.5rem;
+  font-family: inherit;
+  font-style: inherit;
+  color: #fff;
+  outline: none;
+  padding: 1.25rem;
+  background: none;
+  transition: all 160ms ease-in;
+}
+.name-me:hover {
+  border-color: #2c023e;
+}
+
+.name-me:focus {
+  border-color: #2c023e;
+}
+.me {
+  position: absolute;
+  font-size: 1rem;
+  font-weight: 900;
+  left: 6rem;
+  top: 19rem;
+  padding: 0 0.5rem;
+  color: #fff;
+  cursor: text;
+  transition: top 200ms ease-in, left 200ms ease-in, font-size 300ms ease-in;
+}
+
+.name-me:focus + .me,
+.name-me:valid + .me {
+  top: 16.5rem;
+  font-size: 1rem;
+  left: 6rem;
+}
+
+.family {
+  position: absolute;
+  top: 18rem;
+  left: 18rem;
+  width: 10rem;
+  height: 100%;
+  border: 3px solid #fff;
+  border-radius: 0.5rem;
+  font-family: inherit;
+  font-style: inherit;
+  color: #fff;
+  outline: none;
+  padding: 1.25rem;
+  background: none;
+  transition: all 160ms ease-in;
+}
+
+.family:hover {
+  border-color: #2c023e;
+}
+
+.family:focus {
+  border-color: #2c023e;
+}
+.name-family {
+  position: absolute;
+  font-size: 1rem;
+  font-weight: 900;
+  left: 18rem;
+  top: 19rem;
+  padding: 0 0.5rem;
+  color: #fff;
+  cursor: text;
+  transition: top 200ms ease-in, left 200ms ease-in, font-size 300ms ease-in;
+}
+
+.family:focus + .name-family,
+.family:valid + .name-family {
+  top: 16.5rem;
+  font-size: 1rem;
+  left: 18rem;
+}
+
+.tel {
+  position: absolute;
+  top: 23rem;
+  left: 6rem;
+  width: 22rem;
+  height: 100%;
+  border: 3px solid #fff;
+  border-radius: 0.5rem;
+  font-family: inherit;
+  font-style: inherit;
+  color: #fff;
+  outline: none;
+  padding: 1.25rem;
+  background: none;
+  transition: all 160ms ease-in;
+}
+
+.tel:hover {
+  border-color: #2c023e;
+}
+
+.tel:focus {
+  border-color: #2c023e;
+}
+.mobile {
+  position: absolute;
+  font-size: 1rem;
+  font-weight: 900;
+  left: 6rem;
+  top: 24rem;
+  padding: 0 0.5rem;
+  color: #fff;
+  cursor: text;
+  transition: top 200ms ease-in, left 200ms ease-in, font-size 300ms ease-in;
+}
+
+.tel:focus + .mobile,
+.tel:valid + .mobile {
+  top: 21.5rem;
+  font-size: 1rem;
+  left: 6rem;
+}
+
+.email {
+  position: absolute;
+  top: 28rem;
+  left: 6rem;
+  width: 22rem;
+  height: 100%;
+  border: 3px solid #fff;
+  border-radius: 0.5rem;
+  font-family: inherit;
+  font-style: inherit;
+  color: #fff;
+  outline: none;
+  padding: 1.25rem;
+  background: none;
+  transition: all 160ms ease-in;
+}
+.email:hover {
+  border-color: #2c023e;
+}
+
+.email:focus {
+  border-color: #2c023e;
+}
+.mail {
+  position: absolute;
+  font-size: 1rem;
+  font-weight: 900;
+  left: 6rem;
+  top: 29rem;
+  padding: 0 0.5rem;
+  color: #fff;
+  cursor: text;
+  transition: top 200ms ease-in, left 200ms ease-in, font-size 300ms ease-in;
+}
+
+.email:focus + .mail,
+.email:valid + .mail {
+  top: 26.5rem;
+  font-size: 1rem;
+  left: 6rem;
+}
+.btn {
+  position: absolute;
+  width: 22rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  top: 33rem;
+  left: 6rem;
+  background: linear-gradient(to right, #591da9, #230063);
+  border: 3px solid #fff;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 900;
+  transition: all 0.2s;
+}
+.btn:hover {
+  background: #fff;
+  color: #591da9;
+  text-shadow: 3px 3px 8px #060606;
+  outline: none;
+  cursor: pointer;
+  transform: scale(1.1);
+}
