@@ -35,3 +35,5 @@ img_actor4.addEventListener('click',function(){
     image_actor.src = 'img/photo12850770410_prev_ui.png';
     image_actor.classList.remove('hidden');
 });
+
+AOS.init();
