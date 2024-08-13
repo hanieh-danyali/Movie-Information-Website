@@ -9,6 +9,8 @@
       src="https://kit.fontawesome.com/72dd932601.js"
       crossorigin="anonymous"
     ></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
   </head>
   <body>
     <!-- start header -->
@@ -16,9 +18,9 @@
       <!-- start menu -->
       <ul class="menu">
         <li><a href="#" class="menu-info">Home</a></li>
-        <li><a href="#" class="menu-info">info</a></li>
-        <li><a href="#" class="menu-info">Artist</a></li>
-        <li><a href="#" class="menu-info">About Tel</a></li>
+        <li><a href="#info" class="menu-info" >info</a></li>
+        <li><a href="#Artist" class="menu-info">Artist</a></li>
+        <li><a href="#About" class="menu-info">About Tel</a></li>
         <li>
           <input
             type="search"
@@ -58,10 +60,10 @@
 
     <!-- start main -->
     <main class="main">
-      <div class="movie__info">
+      <div class="movie__info" id="info"  data-aos="fade-up" >
         <div class="info-movie">
-          <div class="design">
-            <div class="circle">
+          <div class="design" >
+            <div class="circle" data-aos="zoom-out-down"  data-aos-duration="2000">
               <img src="img/photo12848488483.jpg" alt="" class="img__wednesday" />
             </div>
           </div>
@@ -117,23 +119,32 @@
 
 
 
-      <div class="intro_artists1">
+      <div class="intro_artists1" id="Artist"    data-bs-ride="carousel"
+      data-aos="zoom-in-up">
         <div class="img_artists">
         
-          <div class="name_photo">
+          <div class="name_photo"  data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"  >
             <img src="img/photo_jenna.png" alt="" class="img_actor1" />
-            <div class="name__fact"><h5 class="name_a">Jenna Ortega</h5>
+            <div class="name__fact" ><h5 class="name_a">Jenna Ortega</h5>
           <p class="name__fake">wednesday</p>
             </div></div>
-            <div class="name_photo"><img src="img/photo_hunter.png" alt="" class="img_actor2" />
+            <div class="name_photo"  data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"><img src="img/photo_hunter.png" alt="" class="img_actor2" />
               <div class="name__fact"><h5 class="name_a">Hunter Doohan</h5>
             <p class="name__fake">Tyler Galpin</p>
               </div></div>
-              <div class="name_photo"><img src="img/photo_emma.png" alt="" class="img_actor3" />
+              <div class="name_photo"  data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"><img src="img/photo_emma.png" alt="" class="img_actor3" />
                 <div class="name__fact"><h5 class="name_a">Emma Myers</h5>
               <p class="name__fake">Enid Sinclair</p>
                 </div></div>
-                <div class="name_photo"><img src="img/photo12850770410_prev_ui.png" alt="" class="img_actor4" />
+                <div class="name_photo"  data-aos="fade-right"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-sine"><img src="img/photo12850770410_prev_ui.png" alt="" class="img_actor4" />
                   <div class="name__fact"><h5 class="name_a">Percy Hynes</h5>
                 <p class="name__fake">Xavier Torp</p>
                   </div></div>
@@ -148,7 +159,8 @@
               <p class="about_actor">
                 Jenna Ortega, an American actress and voice actress, was born on September 27, 2002 in Coachella Valley, California. Due to her interest in acting, she entered the field of acting since she was 6 years old. Besides acting, she is also interested in writing. Jenna Ortega has a history of acting and voicing in films and series such as Wednesday, Scream 5, Yes Day, Princess Elena, Jurassic World: Camp Cretaceous, Saving Flora, You and Iron Man 3 in her artistic career.
               </p>
-              <div class="image-4"><img src="img/photo_jenna.png" alt="jenna_ortega" class="image__actor image___actor "></div>
+              <div class="image-4"  data-aos="fade-up"
+              data-aos-anchor-placement="top-center"><img src="img/photo_jenna.png" alt="jenna_ortega" class="image__actor image___actor "></div>
             </div>
         </div>
       </div>
@@ -160,7 +172,7 @@
 
     <!-- start footer -->
     
-      <footer>
+      <footer id="About">
         <div class="row">
           <div class="col">
             <img src="img/logo.png" alt="logo" class="logo-footer" />
@@ -216,7 +228,9 @@
       </footer>
     
     <!-- end footer -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script src="script.js"></script>
+
   </body>
 </html>
