@@ -12,10 +12,10 @@
   box-sizing: border-box;
 }
 body {
-border-color: black;
-color: white;
+  border-color: black;
+  color: white;
 }
-html{
+html {
   background-color: #000;
 }
 /* start header */
@@ -85,7 +85,7 @@ header {
 }
 .logo {
   width: 5rem;
-  height:3rem;
+  height: 3rem;
   margin: 2rem;
 }
 
@@ -133,7 +133,7 @@ header {
   background: linear-gradient(to right, #591da9, #230063 70%);
   color: #fff;
   font-size: 0.9rem;
-  width:7rem;
+  width: 7rem;
   height: 1.8rem;
   border-radius: 0 0.5rem 0;
   border: none;
@@ -149,7 +149,7 @@ header {
 }
 .btn2 {
   font-family: moon;
-display: inline-block;
+  display: inline-block;
   background: linear-gradient(to left, #591da9, #230063 70%);
   color: #fff;
   font-size: 0.9rem;
@@ -182,11 +182,11 @@ display: inline-block;
   width: 100%;
   height: 30rem;
 }
-.movie__info{
+.movie__info {
   display: grid;
   grid-template-columns: auto;
   background-color: black;
-  height: 45rem;
+  height: 50rem;
   margin-bottom: 0;
 }
 .info-movie {
@@ -223,7 +223,7 @@ display: inline-block;
   transform: scale(1.1);
 }
 
-.img__wednesday{
+.img__wednesday {
   position: absolute;
   width: 20rem;
   height: 20rem;
@@ -235,7 +235,7 @@ display: inline-block;
 
 .titel-info-movie {
   position: absolute;
-  margin-top: -40rem;
+  margin-top: -37rem;
   margin-left: 14rem;
   font-size: 2rem;
   font-family: wednesday;
@@ -244,14 +244,14 @@ display: inline-block;
 .text-info-movie {
   position: absolute;
   width: 30rem;
-  margin-top: -30rem;
+  margin-top: -27rem;
   margin-left: 10rem;
 }
 
 .about-movie-1 {
   width: 30rem;
   height: 12rem;
-  margin-top: -14rem;
+  margin-top: -11rem;
   margin-left: 10rem;
   font-size: 0.8rem;
   display: flex;
@@ -287,52 +287,51 @@ display: inline-block;
   grid-template-columns: 1fr 3fr;
   background-color: rgb(0, 0, 0);
   position: absolute;
-  padding: 2rem;
+  /* padding: 2rem; */
 }
-.casts_m{
+.casts_m {
   width: 7rem;
   height: 3rem;
   padding-right: 0.8rem;
   padding-left: 1.2rem;
   padding-right: 0.8rem;
-  border-left:5px solid #0b0605;
+  border-left: 5px solid #0b0605;
   margin-left: 1rem;
   padding-bottom: 0.4rem;
 }
-.casts{
+.casts {
   font-size: 2rem;
 }
 .img_artists {
- 
   height: 44rem;
   display: flex;
   flex-direction: column;
   align-items: start;
-  padding-top:10rem;
+  padding-top: 5rem;
   padding-right: 1rem;
   padding-left: 2rem;
-  padding-bottom:0.2rem;
-  border-left: 5px ;
+  padding-bottom: 0.2rem;
+  border-left: 5px;
 }
-.name_photo{
+.name_photo {
   display: flex;
   font-size: 1.6rem;
   color: #070105;
 }
-.name_a{
+.name_a {
   margin-top: 1rem;
-  font-size:1.3rem;
+  font-size: 1.3rem;
   color: white;
   /* text-shadow: 5px 5px 5px rgb(163, 63, 152); */
   margin-bottom: 4px;
 }
-.name__fact{
+.name__fact {
   display: flex;
   flex-direction: column;
   padding-top: 1.5rem;
   color: white;
 }
-.name__fake{
+.name__fake {
   font-size: 1rem;
 }
 .img_actor1 {
@@ -406,7 +405,7 @@ display: inline-block;
   padding: 1rem;
 }
 .info_artists1 {
-  padding-top:2rem;
+  /* padding-top: 1rem; */
   padding-left: 4rem;
   padding-right: 4rem;
   padding-bottom: 6rem;
@@ -418,15 +417,15 @@ display: inline-block;
   /* border: 3px solid black; */
   border-radius: 4rem;
 }
-.my_artist{
+.my_artist {
   font-family: wednesday;
   font-weight: bold;
   padding-top: 3rem;
   font-size: 3rem;
- height: 6rem;
+  height: 6rem;
   padding-left: 10rem;
 }
-.artists{
+.artists {
   margin-left: 2rem;
 }
 .name_actor {
@@ -439,9 +438,8 @@ display: inline-block;
 }
 
 .about_actor {
-
   margin: 1rem;
- font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 1.2rem;
   margin-bottom: 2rem;
 }
@@ -449,39 +447,41 @@ display: inline-block;
 .fa-brands {
   color: white;
 }
-.image__actor{
+.image__actor {
   float: right;
 }
-.hidden{
+.hidden {
   width: 18rem;
   height: 16rem;
 }
-.ab_actor{
+.ab_actor {
   width: 50rem;
   height: 2rem;
   text-align: center;
   font-size: 2rem;
-
 }
-.image___actor{
+.image___actor {
   height: 15rem;
 }
-.image-4{
+.image-4 {
   /* background: linear-gradient(109.6deg, rgba(94, 5, 110, 0.5) 11.2%, rgba(180, 54, 226, 0.5) 91.1%); */
   width: 18rem;
-  background: radial-gradient( rgba(66, 8, 76, 0.5) 11.2%, rgba(158, 41, 201, 0.5));
+  background: radial-gradient(
+    rgba(66, 8, 76, 0.5) 11.2%,
+    rgba(158, 41, 201, 0.5)
+  );
   height: 18rem;
   margin-top: 1rem;
   margin-left: auto;
   margin-right: auto;
- padding-top: 3rem;
- padding-left: 5rem;
- padding-bottom: 0.1rem;
- text-align: center;
- border-top-right-radius: 8rem;
- border-top-left-radius: 8rem;
- outline: 10px dashed;
- outline-color:blueviolet;
+  padding-top: 3rem;
+  padding-left: 5rem;
+  padding-bottom: 0.1rem;
+  text-align: center;
+  border-top-right-radius: 8rem;
+  border-top-left-radius: 8rem;
+  outline: 10px dashed;
+  outline-color: blueviolet;
 }
 
 /* end main */
@@ -492,7 +492,7 @@ footer {
   width: 100%;
   position: relative;
   top: 118rem;
-  background: linear-gradient( #692abd, #210654);
+  background: linear-gradient(#692abd, #210654);
   color: #fff;
   padding: 2rem 0 1rem;
   border-top-left-radius: 12.5rem;
